@@ -9,7 +9,7 @@
 
 ### 🧭 About Me
 
-- 🎓 Pre-final year B.Tech in **Artificial Intelligence & Machine Learning**, ACE Engineering College, Hyderabad — Batch 2027
+- 🎓 Final year B.Tech in **Artificial Intelligence & Machine Learning**, ACE Engineering College, Hyderabad — Batch 2027
 - 🌱 Currently sharpening skills in applied ML, backend systems, and cloud infrastructure
 - 🎯 Targeting an **MS in Data Science/AI in Germany** — or a strong AI/ML engineering role in India
 - 🛠️ Comfortable across the stack: React Native/Next.js frontends, Flask/Node backends, PostgreSQL, and ML pipelines
