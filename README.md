@@ -2,7 +2,7 @@
 <h3 align="center">AI/ML Engineer in the making | B.Tech AIML, ACE Engineering College, Hyderabad</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Pre-final+year+AI%2FML+student;Building+full-stack+%2B+ML+systems;Competitive+programmer;Chasing+an+MS+in+Germany+or+strong+AI%2FML+roles" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Final+year+AI%2FML+student;Building+full-stack+%2B+ML+systems;Competitive+programmer;Chasing+an+MS+in+Germany+or+strong+AI%2FML+roles" alt="Typing SVG" />
 </p>
 
 ---
@@ -34,8 +34,10 @@
 **Backend & Data**
 ![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Supabase](https://img.shields.io/badge/-Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
 ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![tRPC](https://img.shields.io/badge/-tRPC-2596BE?style=flat-square&logo=trpc&logoColor=white)
+![React Query](https://img.shields.io/badge/-React_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white)
 
 **Cloud, DevOps & ML**
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
@@ -48,8 +50,14 @@
 
 ### 🚀 Featured Projects
 
-**[Time To Travel](https://github.com/krishNaa1942)** — Full-stack AI travel planning app
-React Native (Expo SDK 54) + TypeScript frontend, Flask/PostgreSQL backend, 30+ REST endpoints, 6 external API integrations, Gemini API + AWS Bedrock for AI features, JWT auth, Dockerized, tested with Pytest.
+**[Time To Travel](https://github.com/krishNaa1942)** — AI-assisted travel OS for planning Indian trips end to end
+A full-stack monorepo: Expo/React Native (RN 0.81, TypeScript strict) mobile client + Flask 3 backend, spanning discovery, AI-powered budgeting, itinerary planning, safety scoring, reservations, and trip sharing across Android/iOS/web.
+
+- 🤖 **AI layer with graceful degradation** — Gemini-powered chatbot with a deterministic scikit-learn/TF-IDF fallback so the app never breaks if the model is unavailable; explainable recommendation engine (score breakdowns, not a black box)
+- 🔐 **Production-grade auth** — SecureStore-backed tokens, automatic refresh, bcrypt hashing, Flask-Limiter rate limiting, CSRF/CORS hardening
+- ⚡ **Performance-tuned client** — React Query (dedup + backoff + reconnect refetch), Zustand state, FlashList for large lists, lazy-loaded nav stacks with Suspense
+- 🗄️ **Flexible data layer** — SQLite for dev, PostgreSQL/Supabase for production; 6 external integrations (Gemini, OpenWeather, TomTom, Unsplash, Foursquare, NewsAPI)
+- 🚀 **Shipped like a real product** — Dockerized (non-root, health-checked), GitHub Actions CI/CD, Pytest coverage, offline mutation queueing
 
 **[BlogHub](https://github.com/krishNaa1942)** — Modern blogging platform
 Next.js + tRPC, Redis caching, Docker, CI/CD via GitHub Actions.
